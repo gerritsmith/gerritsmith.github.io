@@ -4,19 +4,52 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
 
-    <title>Gerrit Smith</title>
+    <title>Gerrit Smith | Developer</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
-
+    <header>
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+        <a class="navbar-brand" href="#home">
+          <img class="d-inline-block align-top" src="images/personal-logo-square.svg" width="30" height="30" alt="Personal logo from initials GS">
+          Gerrit Smith
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationOptions" aria-controls="navigationOptions" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navigationOptions" class="collapse navbar-collapse">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-4">Gerrit Smith</h1>
+        <p><em>Web developer providing Java and JavaScript solutions with Spring Boot and Angular.</em></p>
+      </section>
+      <section id="contact" class="d-flex justify-content-center align-items-center flex-wrap">
+        <div>
+          <a class="contact-link" href="https:/github.com/gerritsmith"><i class="fab fa-github"></i>GitHub</a>
+        </div>
+      </section>
+    </main>
+    <footer class="d-flex justify-content-end align-items-center">
+      <div>
+        &copy; 2020 Gerrit Smith
+      </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>

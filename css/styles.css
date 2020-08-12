@@ -1,0 +1,52 @@
+:root {
+  --main-color: hsl(263, 100%, 15%);
+  --dark-color: hsl(263, 10%, 15%);
+  --light-color: hsl(263, 40%, 85%);
+  --second-color: hsl(93, 85%, 15%);
+}
+
+nav {
+  background-color: var(--main-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, .75);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+#home {
+  height: 100vh;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+#contact {
+  height: 90vh;
+  background-color: var(--second-color);
+}
+
+.contact-link {
+  color: var(--light-color);
+  transition: font-size 0.25s ease-out;
+}
+
+.contact-link .fab {
+  margin-right: 0.25rem;
+}
+
+.contact-link:hover {
+  color: var(--light-color);
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+footer {
+  height: 10vh;
+  padding: 0.5rem 1rem;
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}

@@ -1,0 +1,12 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <rect width="100%" height="100%" fill="#2c232a"/>
+  <path fill="none" stroke="#ef0000" stroke-width="16" stroke-linecap="square" d="M64 224L216 224L224 152L72 152L80 74L224 74"/>
+  <path fill="none" stroke="#008b00" stroke-width="16" stroke-linecap="square" d="M192 32L48 32L32 188L184 188L192 116L112 116"/>
+  <path fill="#008b00" stroke="#008b00" stroke-width="1" d="M199.5 24.5l8.5 0l-1.5 15l-7 0"/>
+  <path fill="#008b00" stroke="#008b00" stroke-width="1" d="M104.5 123.5l-2.5 0l1.5 -15l1 0"/>
+  <path fill="#ef0000" stroke="#ef0000" stroke-width="1" d="M231.5 66.5l8.5 0l-1.5 15l-7 0"/>
+  <path fill="#ef0000" stroke="#ef0000" stroke-width="1" d="M56.5 231.5l-8.5 0l1.5 -15l7 0"/>
+  <path fill="#0000f9" stroke="#0000f9" stroke-width="1" opacity="0.5" d="M208.25 32L209 25L240.25 66l-1.5 15L207.5 40l1.5 -15"/>
+  <path fill="#0000f9" stroke="#0000f9" stroke-width="1" opacity="0.5" d="M24.5 196.5l-0.5 0l23.75 35l174.23 0l-31.2 -35l-165 0Z"/>
+  <path fill="#0000f9" stroke="#0000f9" stroke-width="1" opacity="0.5" d="M191.75 195.25l-0.1 0.75l31.22 35l0.1 -0.5l9.5 -85.5l0.1 -0.75l-31.25 -35l-0.1 0.75Z"/>
+</svg>
